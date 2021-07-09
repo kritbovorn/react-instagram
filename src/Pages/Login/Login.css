@@ -1,0 +1,56 @@
+.div-login {
+    width: 250px;
+    height: 350px;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 0 auto;
+    margin-top: 10vh;
+
+    border: 2px solid #dbdbdb;
+    border-radius: 15px;
+
+    padding: 20px;
+}
+
+.div-login-logo {
+    width: 50px;
+    height: 50px;
+
+    align-self: center;
+}
+
+input {
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    width: 95%;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+
+    box-shadow: none;
+
+
+    padding: 5px;
+
+    margin: 2px 0;
+}
+
+button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+
+    width: 100%;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 5px 5px;
+
+    margin: 5px 0;
+}

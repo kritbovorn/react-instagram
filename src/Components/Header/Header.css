@@ -1,0 +1,36 @@
+nav {
+    height: 50px;
+    border: 1px solid #dfdfdf;
+
+    display: grid;
+    
+}
+
+.div-header {
+    width: 80%;
+    margin: 0 auto;
+
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+
+.div-svg {
+    width: 28px;
+    height: 28px;
+}
+
+.active {
+    border-bottom: 3px solid firebrick;
+
+    
+    justify-self: stretch;
+    display: grid;
+    justify-items: center;
+}
+NavLink {
+    border: 1px solid red;
+}
