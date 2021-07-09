@@ -1,0 +1,24 @@
+.div-profile {
+    width: 80%;
+    
+    margin: 0 auto;
+    margin-top: 25px;
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 1rem;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+.profile-detail { 
+    display: grid;
+    align-content: center;
+}
+.profile-detail-username {
+    font-size: 2.5rem;
+}
+.profile-detail-name {
+    font-weight: bold;
+}

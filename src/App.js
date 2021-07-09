@@ -24,7 +24,7 @@ class App extends React.Component {
 
           {
             !isLog ? <Route exact path='/' render={() => <Login isLogin={ this.handleLogin } />} /> :
-                     <Route path='/' render={() => <Home /> } />
+                     <Route path='/' render={() => <Home handleLogged={ this.handleLogin } /> } />
           }
           
           <Route path='*' component={ NoMatch } />

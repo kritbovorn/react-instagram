@@ -1,0 +1,12 @@
+.div-feed {
+    background: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+}

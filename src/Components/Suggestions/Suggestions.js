@@ -20,7 +20,9 @@ class Suggestions extends React.Component {
         const { users } = this.state;
 
         return (
-            <div>
+            <div style={{ width: '40%', alignSelf: 'flex-start', display: 'flex', flexDirection: 'column', marginLeft: '10px', padding: '20px'}}>
+
+                <div style={{ fontWeight: 'bold', color: 'silver', marginBottom: '10px'}}>Suggestions</div>
                 {
                     users && users.map(({...user}) => <User key={ user.id } { ...user} />)
                 }

@@ -1,9 +1,22 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
-const User = () => {
+const User = ({ name, username, email, history }) => {
+
+    const handleClick = () => {
+        history.push(`/${ username }`, {
+            name,
+            email,
+            username
+        });
+    }
+
     return (
-        <h2>User</h2>
+        <div style={{ padding: '10px 0', height: '50px' }}>
+            <div style={{ fontSize: '1.5rem', width: 'min-content', cursor: 'pointer' }} onClick={ handleClick }>{ username }</div>
+            <div style={{ fontSize: '0.8rem', color: 'silver' }}>{ name }</div>
+        </div>
     )
 }
 
-export default User;
+export default withRouter(User);
